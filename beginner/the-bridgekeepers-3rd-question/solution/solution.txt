@@ -40,5 +40,6 @@ eval(document.getElementById('challenge').innerText);
 We want to follow the next letter at every point. Counting the indicies needed for this, we get:
 
 17 4 1 4 2 2 0 15 20 17 15 11 4
+Then add these with 97, to get the flag. Like 97+17 = 'r'.
 
-Which is 'rebeccapurple'
+The flag is 'rebeccapurple'
