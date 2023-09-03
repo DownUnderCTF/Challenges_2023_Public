@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Bridgekeeper's Third Question</title>
+  <!-- https://www.youtube.com/watch?v=0D7hFHfLEyk -->
+  <style>
+    body {
+      background-color: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .word {
+      font-size: 48px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+  <script id="challenge" src="text/javascript">
+    function cross() {
+      prompt("What is your name?");
+      prompt("What is your quest?");
+      answer = prompt("What is your favourite colour?");
+      if (answer == "blue") {
+        document.getElementById('word').innerText = "flag is DUCTF{" + answer + "}";
+        cross = escape;
+      }
+      else {
+        document.getElementById('word').innerText = "you have been cast into the gorge";
+        cross = unescape;
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="word" class="word" onclick="cross()">click here to cross</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+version: "0.1"
+id: apbq_rsa_i
+name: apbq rsa i
+category: crypto
+description: |
+  Just a simple RSA problem with some extra equations.
+
+  Author: joseph
+
+hosting:
+  type: file
+
+tags:
+  - easy
+
+files:
+  - ./publish/apbq-rsa-i.py
+  - ./publish/output.txt
+
+flags:
+  - DUCTF{gcd_1s_a_g00d_alg0r1thm_f0r_th3_t00lbox}

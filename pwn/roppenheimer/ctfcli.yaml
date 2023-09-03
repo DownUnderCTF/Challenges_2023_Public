@@ -1,0 +1,25 @@
+version: "0.1"
+id: roppenheimer
+name: roppenheimer
+category: pwn
+description: |
+  Can you discover the secret to nuclear fission?
+
+  Author: sradley
+
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml
+
+connection_info: nc ${host} ${port}
+
+tags:
+  - medium
+
+files:
+  - ./publish/roppenheimer.cpp
+  - ./publish/roppenheimer
+  - ./publish/libc.so.6
+
+flags:
+  - DUCTF{wH0_KnEw_Th4T_HAsHm4ps_4nD_nUCle4r_Fi5S10n_HAd_s0meTHiNg_1n_c0MmoN}

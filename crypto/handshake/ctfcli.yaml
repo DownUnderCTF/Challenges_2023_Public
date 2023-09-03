@@ -1,0 +1,23 @@
+version: "0.1"
+id: handshake
+name: handshake
+category: crypto
+description: |
+  A handshake is a common greeting in many places around the world.
+
+  Author: joseph
+
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml
+
+connection_info: nc ${host} ${port}
+
+tags:
+  - medium
+
+files:
+  - ./publish/handshake.tar.gz
+
+flags:
+  - DUCTF{k3y_der1v3d_fr0m_ov3rsh4r3d_mat3r1al}

@@ -1,0 +1,14 @@
+version: "0.1"
+id: spacegame
+name: SPACEGAME
+category: rev
+description: |
+  ALL YOUR BASE ARE BELONG TO US. YOU ARE ON THE WAY TO DESTRUCTION.
+
+  Author: hashkitten
+tags:
+  - medium
+flags:
+  - DUCTF{your_journey_is_over_a1eb723d}
+files:
+  - ./publish/SPACEGAME.zip

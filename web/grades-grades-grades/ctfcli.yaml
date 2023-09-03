@@ -1,0 +1,23 @@
+version: "0.1"
+id: grades-grades-grades
+name: grades_grades_grades
+author: donfran
+category: web
+description: |
+  Sign up and see those grades :D! How well did you do this year's subject?
+  Author: donfran
+
+hosting:
+  type: kube
+  template: web-challenge.yaml
+
+connection_info: ${url}
+
+files:
+  - ./publish/grades_grades_grades.tar.gz
+
+flags:
+  - DUCTF{Y0u_Kn0W_M4Ss_A5s1GnM3Nt_c890ne89c3}
+
+tags:
+  - easy

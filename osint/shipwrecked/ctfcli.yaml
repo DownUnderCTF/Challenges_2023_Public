@@ -1,0 +1,24 @@
+version: "0.1" # ctfcli version (leave as is)
+id: shipwrecked # internal challenge id (do not change this)
+name: Shipwrecked # challenge name to be displayed
+category: osint # challenge category
+description: |
+  That bird is mocking me. It should have been a no bird sign!
+  
+  Where is this location? I'm needing the suburb, all in lowercase ;) 
+  
+  Flag format is DUCTF{suburb}
+
+  Author: Nosurf
+
+
+# a list of tags for your challenge
+tags:
+  - hard
+
+# list of files to hand out to players
+files:
+  - ./publish/Shipwrecked.jpg
+
+flags:
+  - DUCTF{laurieton}

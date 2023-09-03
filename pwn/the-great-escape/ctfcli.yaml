@@ -1,0 +1,25 @@
+version: "0.1"
+id: the-great-escape
+name: the great escape
+category: pwn
+description: |
+  Do you have an escape plan?
+
+  Flag: `/chal/flag.txt`
+
+  Author: sradley
+
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml
+
+connection_info: nc ${host} ${port}
+
+tags:
+  - easy
+
+files:
+  - ./publish/jail
+
+flags:
+  - DUCTF{S1de_Ch@nN3l_aTT4ckS_aRe_Pr3tTy_c00L!}

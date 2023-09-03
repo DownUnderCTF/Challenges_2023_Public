@@ -1,0 +1,27 @@
+version: "3.3"
+services:
+  immutable:
+    build: src/
+    container_name: monkeing-around 
+    environment:
+      - BLOCKCHAIN_RPC_URL=http://geth:8545
+      - DEPLOYER_PRIVATE_KEY=4880b67045d1d255a093e434e76bb9325ae5e782d22d01c7456ee41360a54c75
+      # - CONFIG_FILE_NAME=challenge.yaml
+    ports:
+      - 3000:3000
+    restart: "no"
+  geth:
+    image: ghcr.io/downunderctf/eth-challenge-base/geth:latest
+    container_name: geth
+    environment:
+      - DEPLOYER_PRIVATE_KEY=4880b67045d1d255a093e434e76bb9325ae5e782d22d01c7456ee41360a54c75
+      - BLOCK_TIME=0
+      # - CHAIN_ID=31337
+    ports:
+      - 8545:8545
+    restart: "no"
+
+
+
+networks:
+  default:

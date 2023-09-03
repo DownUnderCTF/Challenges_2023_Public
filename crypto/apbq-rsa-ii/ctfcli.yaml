@@ -1,0 +1,21 @@
+version: "0.1"
+id: apbq_rsa_ii
+name: apbq rsa ii
+category: crypto
+description: |
+  Just another simple RSA problem with some more extra equations.
+
+  Author: joseph
+
+hosting:
+  type: file
+
+tags:
+  - medium
+
+files:
+  - ./publish/apbq-rsa-ii.py
+  - ./publish/output.txt
+
+flags:
+  - DUCTF{0rtho_l4tt1c3_1s_a_fun_and_gr34t_t3chn1que_f0r_the_t00lbox!}

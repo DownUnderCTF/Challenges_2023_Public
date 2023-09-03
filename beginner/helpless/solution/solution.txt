@@ -1,0 +1,3 @@
+Type `os`, and you should see the less pager come up.
+
+Type `:e/home/ductf/flag.txt`.

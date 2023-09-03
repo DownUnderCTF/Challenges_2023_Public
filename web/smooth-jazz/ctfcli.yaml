@@ -1,0 +1,18 @@
+version: "0.1"
+id: smooth-jazz
+name: smooth jazz
+category: web
+description: |
+  Sit back, relax, and enjoy this mini SQL injection challenge with some smooth jazz.
+
+  Author: hashkitten
+connection_info: ${url}
+tags:
+  - medium
+files:
+  - ./publish/smooth-jazz.zip
+flags:
+  - DUCTF{at_least_you_can_enjoy_the_jazz}
+hosting:
+  type: kube
+  template: web-challenge.yaml

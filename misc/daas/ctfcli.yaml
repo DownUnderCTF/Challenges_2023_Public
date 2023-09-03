@@ -1,0 +1,18 @@
+version: "0.1"
+id: daas
+name: daas
+category: misc
+description: |
+  `decompyle3` translates Python bytecode back into equivalent Python source code. Please enjoy this free service.
+
+  Author: hashkitten
+connection_info: nc ${host} ${port}
+tags:
+  - hard
+files:
+  - ./publish/daas.zip
+flags:
+  - DUCTF{i_don't_trust_my_decompyler_:-(}
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml

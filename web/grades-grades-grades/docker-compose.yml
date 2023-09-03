@@ -1,0 +1,8 @@
+version: '3.0'
+services:
+  grades_grades_grades:
+    build: src/.
+    ports:
+      - "5000:5000"
+    # restart: always
+    container_name: grades_grades_grades

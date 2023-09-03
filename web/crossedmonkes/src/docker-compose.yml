@@ -1,0 +1,28 @@
+version: '3.0'
+services:
+  monkestorage:
+    build: monkestorage/.
+    ports:
+      - "3000:3000"
+    environment:
+      ADMIN_USERNAME: monkeadmina5397e192d98a1780240b87d425621170d6eaedbe982fdbf817a8e8503cf67d61334014a
+      ADMIN_PASSWORD: 90073eef18bf6f7d69a30fc87311a65bfd45500f1dd05451973a23140e78449bedda7c30
+      FLAG: DUCTF{tH3_m0Nk3S_aR3_n0w_m3g4_XroSS}
+    container_name: monkestorage
+
+  monkebot:
+    build: monkebot/.
+    ports:
+      - "1337:1337"
+    environment:
+      ADMIN_USERNAME: monkeadmina5397e192d98a1780240b87d425621170d6eaedbe982fdbf817a8e8503cf67d61334014a
+      ADMIN_PASSWORD: 90073eef18bf6f7d69a30fc87311a65bfd45500f1dd05451973a23140e78449bedda7c30
+      MONKESTORAGE_HOST: http://monkestorage:3000
+    container_name: monkebot
+
+  mongodb:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: monkeuser
+      MONGO_INITDB_ROOT_PASSWORD: gonnawhackmykeyboardasi)!@sdjSJED121
+    container_name: mongodb

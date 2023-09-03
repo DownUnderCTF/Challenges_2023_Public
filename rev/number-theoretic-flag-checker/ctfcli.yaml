@@ -1,0 +1,20 @@
+version: "0.1"
+id: number_theoretic_flag_checker
+name: number theoretic flag checker
+category: rev
+description: |
+  This program checks the flag based on some operations involving numbers.
+
+  Author: joseph
+
+hosting:
+  type: file
+
+tags:
+  - medium
+
+files:
+  - ./publish/nt_flag_checker
+
+flags:
+  - DUCTF{fft_alg0r1thm_1d3ntif1ed_372ca4e0a11dabbc}

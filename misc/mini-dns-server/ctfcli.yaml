@@ -1,0 +1,19 @@
+version: "0.1"
+id: mini_dns_server
+name: mini dns server
+category: misc
+description: |
+  This mini DNS server hands out free flags to fellow mini DNS enthusiasts.
+
+  Author: joseph, pix
+
+connection_info: dig @34.82.169.203 -p 8053 give.me.the.flag
+
+tags:
+  - medium
+
+files:
+  - ./publish/mini_dns_server.py
+
+flags:
+  - DUCTF{1ts.N0t.DNS.There1s.n0W4y.its_DNS.1tw4s.DNS}

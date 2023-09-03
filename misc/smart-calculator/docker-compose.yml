@@ -1,0 +1,9 @@
+version: "3"
+services:
+  web:
+    build: src/.
+    ports:
+      - "1337:1337"
+    privileged: true
+    # restart: always
+    container_name: smart-calculator

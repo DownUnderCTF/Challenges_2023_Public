@@ -1,0 +1,23 @@
+version: "0.1"
+id: dilithium
+name: dilithium±
+category: crypto
+description: |
+  Just a regular Dilithium implementation with some patches.
+
+  Author: joseph
+
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml
+
+connection_info: nc ${host} ${port}
+
+tags:
+  - hard
+
+files:
+  - ./publish/dilithium.tar.gz
+
+flags:
+  - DUCTF{1n_r34l_l1fe_dilithium_is_actu4lly_a_m0l3cule_ce75f66577ef45e17edde8a5b4}

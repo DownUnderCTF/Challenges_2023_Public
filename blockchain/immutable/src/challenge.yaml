@@ -1,0 +1,12 @@
+# Config file for blockchain infra
+challenge_name: "Immutable"
+challenge_description: "Goal: Become owner of this contract"
+setup_contract_name: "SetupImmutable"
+flag: "DUCTF{this_is_how_t0rn4d0_cash_got_rekt}"
+block_time: 0
+
+# Optional flags
+# player_initial_balance: 2
+# enable_faucet: false
+challenge_source_files:
+  - "Immutable.sol"

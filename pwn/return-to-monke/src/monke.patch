@@ -1,0 +1,75 @@
+diff --git a/js/src/builtin/Object.cpp b/js/src/builtin/Object.cpp
+index 44eeacbf8bd1..c37e97bb317b 100644
+--- a/js/src/builtin/Object.cpp
++++ b/js/src/builtin/Object.cpp
+@@ -2192,6 +2192,42 @@ static bool obj_isSealed(JSContext* cx, unsigned argc, Value* vp) {
+   return true;
+ }
+ 
++bool obj_monke(JSContext* cx, unsigned argc, Value* vp) {
++  AutoJSMethodProfilerEntry pseudoFrame(cx, "Array.prototype", "monke");
++  CallArgs args = CallArgsFromVp(argc, vp);
++
++  RootedObject obj(cx, ToObject(cx, args.thisv()));
++  if (!obj) {
++    return false;
++  }
++
++  typedef union {
++    double   f;
++    uint64_t i;
++  } ftoi_t;
++
++  uint64_t* raw_obj = reinterpret_cast<uint64_t*>(&(*obj));
++
++  if (argc == 0) {
++    ftoi_t ftoi = {
++      .i = raw_obj[0]
++    };
++
++    args.rval().setNumber(ftoi.f);
++    return true;
++  }
++
++  double n;
++  if (!ToNumber(cx, args.get(0), &n)) {
++    return false;
++  }
++
++  ftoi_t ftoi = { .f = n };
++  raw_obj[0] = ftoi.i;
++
++  return true;
++}
++
+ bool js::obj_setProto(JSContext* cx, unsigned argc, Value* vp) {
+   CallArgs args = CallArgsFromVp(argc, vp);
+   MOZ_ASSERT(args.length() == 1);
+@@ -2236,6 +2272,7 @@ static const JSFunctionSpec object_methods[] = {
+     JS_SELF_HOSTED_FN(js_defineSetter_str, "ObjectDefineSetter", 2, 0),
+     JS_SELF_HOSTED_FN(js_lookupGetter_str, "ObjectLookupGetter", 1, 0),
+     JS_SELF_HOSTED_FN(js_lookupSetter_str, "ObjectLookupSetter", 1, 0),
++    JS_FN("monke", obj_monke, 1, 0),
+     JS_FS_END};
+ 
+ static const JSPropertySpec object_properties[] = {
+diff --git a/js/src/shell/OSObject.cpp b/js/src/shell/OSObject.cpp
+index b618d331e0ad..213821b9c0bf 100644
+--- a/js/src/shell/OSObject.cpp
++++ b/js/src/shell/OSObject.cpp
+@@ -1230,6 +1230,7 @@ static const JSFunctionSpecWithHelp os_functions[] = {
+ 
+ bool DefineOS(JSContext* cx, HandleObject global, bool fuzzingSafe,
+               RCFile** shellOut, RCFile** shellErr) {
++  /*
+   RootedObject obj(cx, JS_NewPlainObject(cx));
+   if (!obj || !JS_DefineProperty(cx, global, "os", obj, 0)) {
+     return false;
+@@ -1301,6 +1302,7 @@ bool DefineOS(JSContext* cx, HandleObject global, bool fuzzingSafe,
+       }
+     }
+   }
++  */
+ 
+   return true;
+ }

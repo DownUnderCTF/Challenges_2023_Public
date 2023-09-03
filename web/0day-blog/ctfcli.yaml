@@ -1,0 +1,30 @@
+version: "0.1"
+id: 0day-blog
+name: 0day blog
+category: web
+description: |
+  I decided to move my security blog for vulnerability disclosures to Drupal. It has a lot of cool features like *caching* for when it gets a lot of traffic...
+
+  But it will never be popular so oh well why am I even doing this?
+
+  Can you get the flag from `/flag`?
+
+  Author: ghostccamm
+
+  Estimated startup time: 60 seconds
+
+hosting:
+  type: kube
+type: kubectf
+extra:
+  template_name: web-0day-blog
+
+files:
+  - ./publish/0dayblog.zip
+
+tags:
+  - hard
+  - bot
+
+flags:
+  - DUCTF{c4cH3_m1_0uT51D3_w1Th_wHy_t0_n1T_c4Ch3_eHvrRiIet1nG!!1}

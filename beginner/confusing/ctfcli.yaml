@@ -1,0 +1,24 @@
+version: "0.1"
+id: confusing
+name: confusing
+category: beginner
+description: |
+  Types can be very confusing.
+
+  Author: joseph
+
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml
+
+connection_info: nc ${host} ${port}
+
+tags:
+  - pwn
+
+files:
+  - ./publish/confusing.c
+  - ./publish/confusing
+
+flags:
+  - DUCTF{typ3_c0nfus1on_c4n_b3_c0nfus1ng!} 

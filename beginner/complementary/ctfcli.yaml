@@ -1,0 +1,21 @@
+version: "0.1"
+id: complementary
+name: complementary
+category: beginner
+description: |
+  Two halves make a whole.
+
+  Author: joseph
+
+hosting:
+  type: file
+
+tags:
+  - crypto
+
+files:
+  - ./publish/complementary.py
+  - ./publish/output.txt
+
+flags:
+  - DUCTF{is_1nt3ger_f4ct0r1s4t10n_h4rd?}

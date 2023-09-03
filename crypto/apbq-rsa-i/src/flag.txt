@@ -1,0 +1,1 @@
+DUCTF{gcd_1s_a_g00d_alg0r1thm_f0r_th3_t00lbox}

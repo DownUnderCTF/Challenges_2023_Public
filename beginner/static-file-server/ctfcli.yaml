@@ -1,0 +1,23 @@
+version: "0.1"
+id: static-file-server
+name: static file server
+category: beginner
+description: |
+  Here's a simple Python app that lets you view some files on the server.
+
+  Author: joseph
+
+hosting:
+  type: kube
+  template: web-challenge.yaml
+
+connection_info: ${url}
+
+tags:
+  - web
+
+files:
+  - ./publish/static-file-server.zip
+
+flags:
+  - DUCTF{../../../p4th/tr4v3rsal/as/a/s3rv1c3}

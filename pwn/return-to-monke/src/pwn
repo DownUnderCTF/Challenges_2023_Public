@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+
+import sys
+import tempfile
+import os
+
+
+def main():
+    print('JavaScript-C117.0a1')
+    print('> ', end='')
+    sys.stdout.flush()
+
+    data = sys.stdin.readline().encode()
+
+    with tempfile.NamedTemporaryFile() as f:
+        f.write(data)
+        f.flush()
+        os.system(f'/chal/js {f.name}') 
+
+
+if __name__ == '__main__':
+    main()
+

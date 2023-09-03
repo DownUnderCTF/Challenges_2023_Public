@@ -1,0 +1,14 @@
+version: 0.1
+id: wrong-signal
+name: wrong signal
+category: rev
+description: |
+  I am getting all the wrong signals from this binary.
+
+  Author: hashkitten
+tags:
+  - medium
+files:
+  - ./publish/wrong-signal
+flags:
+  - DUCTF{hElCYi8OxUF7PAA5}

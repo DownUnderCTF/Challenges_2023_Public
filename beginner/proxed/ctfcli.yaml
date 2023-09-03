@@ -1,0 +1,23 @@
+version: "0.1"
+id: proxed
+name: proxed
+category: beginner
+description: |
+  Cool haxxorz only
+
+  Author: Jordan Bertasso
+
+hosting:
+  type: kube
+  template: tcp-challenge.yaml
+
+connection_info: http://proxed.duc.tf:${port}
+
+tags:
+  - web
+
+files:
+  - ./publish/proxed.tar.gz
+
+flags:
+  - DUCTF{17_533m5_w3_f0rg07_70_pr0x}

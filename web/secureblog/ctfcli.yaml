@@ -1,0 +1,31 @@
+version: "0.1"
+id: secureblog
+name: secure blog
+author: ghostccamm
+category: web
+description: |
+  Jeff hates frontend web development, but made a sick REST API using Django for his new *secure blog*.
+
+  Can you hack into the **admin** portal and grab the flag?
+
+  Author: ghostccamm
+
+  Estimated startup time: 120 seconds
+
+flags:
+  - DUCTF{oRm_i_g0oF3d_uP_m1_r3lAsHunSh1p5!}
+
+tags:
+  - medium
+
+hosting:
+  type: kube
+type: kubectf
+extra:
+  template_name: web-secureblog
+
+hints:
+  - "Password cracking is required to solve this challenge. Use [rockyou.txt](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz) as your wordlist."
+
+files:
+  - ./publish/secureblog.zip

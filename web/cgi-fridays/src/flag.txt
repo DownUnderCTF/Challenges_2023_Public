@@ -1,0 +1,1 @@
+DUCTF{s qqjust another perl hacker q and print ucfirst}

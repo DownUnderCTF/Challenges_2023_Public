@@ -1,0 +1,31 @@
+version: "0.1" # ctfcli version (leave as is)
+id: immutable # internal challenge id (do not change this)
+name: Immutable # challenge name to be displayed
+category: blockchain # challenge category
+description: |
+  Can you make a contract that can become big and strong?
+
+  Goal: Become owner of this contract 
+
+  Author: Blue Alder
+
+  Estimated startup time: 90 seconds
+
+hosting:
+  type: kube
+type: kubectf
+extra:
+  template_name: blockchain-immutable
+# use this if your challenge involves a remote service
+# for http challenges, use ${url} instead
+
+# a list of tags for your challenge
+tags:
+  - hard
+
+# list of files to hand out to players
+files:
+  - ./publish/Immutable.sol
+
+flags:
+  - DUCTF{this_is_how_t0rn4d0_cash_got_rekt}

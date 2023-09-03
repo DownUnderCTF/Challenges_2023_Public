@@ -1,0 +1,34 @@
+version: "0.1"
+id: strapi-in
+name: strapi in
+category: web
+description: |
+  *Strapi in for a wild ride*
+
+  ![](https://media.tenor.com/o9sXuSI4M34AAAAC/kek-dog.gif)
+
+  You can log into my own Strapi server with the following credentials.
+
+  - **username**: `author@strapi.in`
+  - **password**: `Sup3r secure auth0r pass?`
+
+  *Can you get the flag from `/flag.txt`?*
+
+  Author: ghostccamm
+
+  Estimated startup time: 90 seconds
+
+hosting:
+  type: kube
+type: kubectf
+extra:
+  template_name: web-strapi-in
+
+files:
+  - ./publish/strapi-in.zip
+
+tags:
+  - easy
+
+flags:
+  - DUCTF{sTr4pI_eM41l_d351gN3r_d3V_pLz_sT0P_gH05tInG_mY_r3P0rT5_4_m0nTh5!!1}

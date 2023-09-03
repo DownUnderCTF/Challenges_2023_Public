@@ -1,0 +1,23 @@
+version: "0.1"         # ctfcli version (leave as is)
+id: simple-ftp-server           # internal chall id (just name this anything sensible)
+name: SimpleFTPServer         # challenge name to be displayed
+category: misc
+description: |
+  It always confused me why python had a simple HTTP server, but never a simple FTP server. So I made my own! 
+
+  I hope I didn't leave secrets open to the global internet...
+
+  Author: BootlegSorcery@
+
+hosting: 
+  type: kube
+  template: tcp-challenge-privileged.yaml
+
+connection_info: nc ${host} ${port}
+
+# at least put a difficulty here, one of beginner, easy, medium, hard, insane
+tags:
+  - easy
+
+flags:
+  - DUCTF{15_this_4_j41lbr34k?}

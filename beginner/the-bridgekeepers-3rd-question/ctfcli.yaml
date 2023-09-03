@@ -1,0 +1,19 @@
+version: "0.1"
+id: the-bridgekeepers-3rd-question
+name: the bridgekeepers 3rd question
+category: beginner
+description: |
+  What is your name?
+  What is your quest?
+  What is your favourite colour?
+
+  Author: hashkitten
+connection_info: ${url}
+tags:
+  - rev
+flags:
+  - DUCTF{rebeccapurple}
+
+hosting:
+  type: kube
+  template: web-challenge.yaml

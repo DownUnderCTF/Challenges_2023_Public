@@ -1,0 +1,18 @@
+version: "0.1"
+id: fnv
+name: fnv
+category: crypto
+description: |
+  I know FNV is not a cryptographic hash function, but it's secure since nobody wrote a tool to break it.
+
+  Author: hashkitten, joseph
+connection_info: nc ${host} ${port}
+tags:
+  - medium
+files:
+  - ./publish/fnv.py
+flags:
+  - DUCTF{sorry_but_your_cryptographic_hash_function_is_in_another_castle}
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml

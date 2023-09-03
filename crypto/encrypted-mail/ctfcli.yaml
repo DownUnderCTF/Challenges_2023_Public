@@ -1,0 +1,23 @@
+version: "0.1"
+id: encrypted-mail
+name: encrypted mail
+category: crypto
+description: |
+  Zero-knowledge authentication, end-to-end encryption, this new mail app has it all. For a limited time, admins may be sending flags to users. Sign up today to get yours!
+
+  Author: joseph
+
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml
+
+connection_info: nc ${host} ${port}
+
+tags:
+  - hard
+
+files:
+  - ./publish/encrypted-mail.tar.gz
+
+flags:
+  - DUCTF{wait_its_all_linear_algebra?...always_has_been}

@@ -1,0 +1,29 @@
+version: "0.1"
+id: shifty-mem
+name: shifty mem
+category: pwn
+description: |
+  Shifting as a SUID binary service, because why not?
+
+  Note: This challenge runs over TLS on port 443. You can connect with `openssl` (`openssl s_client -quiet -connect <hostname>:443`) or `pwntools` (`remote('<hostname>', 443, ssl=True)`). This shouldn't affect exploitation.
+
+  Author: joseph
+
+  Estimated startup time: 30 seconds
+
+hosting:
+  type: kube
+type: kubectf
+extra:
+  template_name: pwn-shifty-mem
+# connection_info: nc ${host} ${port}
+
+tags:
+  - medium
+
+files:
+  - ./publish/shifty_mem.c
+  - ./publish/shifty_mem
+
+flags:
+  - DUCTF{r4c1ng_sh4r3d_m3mory_t0_th3_f1nish_flag}

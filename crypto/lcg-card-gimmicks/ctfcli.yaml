@@ -1,0 +1,23 @@
+version: "0.1"
+id: lcg-card-gimmicks
+name: lcg card gimmicks
+category: crypto
+description: |
+  Can you perform card tricks like a true magician?
+
+  Author: joseph
+
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml
+
+connection_info: nc ${host} ${port}
+
+tags:
+  - hard
+
+files:
+  - ./publish/lcg-card-gimmicks.py
+
+flags:
+  - DUCTF{a_tru3_m4g1ci4n_4lways_h4s_s0m3_l4tt1c3_m4gic_up_th31r_sl33ves_and_y0u_ar3_a_tru3_mag1c1an!}

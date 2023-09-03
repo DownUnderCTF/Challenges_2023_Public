@@ -1,0 +1,23 @@
+version: "0.1"
+id: cgi-fridays
+name: cgi fridays
+author: hashkitten
+category: web
+description: |
+  1999 called, and they want their challenge back.
+  
+  Author: hashkitten
+connection_info: ${url}
+
+flags:
+  - DUCTF{s qqjust another perl hacker q and print ucfirst}
+
+tags:
+  - easy
+
+files:
+  - publish/cgi-fridays.zip
+
+hosting:
+  type: kube
+  template: web-challenge.yaml

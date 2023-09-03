@@ -1,0 +1,25 @@
+A=''
+B=?/
+A<<B
+B=?c
+A<<B
+B=?h
+A<<B
+B=?a
+A<<B
+B=?l
+A<<B
+B=?/
+A<<B
+B=?f
+A<<B
+B=?l
+A<<B
+B=?a
+A<<B
+B=?g
+A<<B
+C=$*
+C<<A
+D=$<
+p *D

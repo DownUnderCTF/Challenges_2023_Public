@@ -1,0 +1,1 @@
+DUCTF{how_to_pwn_ruby_in_four_easy_steps}

@@ -1,0 +1,17 @@
+version: "0.1"
+id: x
+name: 𝕏
+category: beginner
+description: |
+  We like to reminisce about the lit memes that have been made by competitiors and organisers alike! Have you checked out [the](https://twitter.com/DownUnderCTF/status/1697304493409337835) [meme](https://twitter.com/DownUnderCTF/status/1697308270439051484) [dump](https://twitter.com/DownUnderCTF/status/1697312042821066846)? 
+
+  Author: a_metre
+
+tags:
+  - misc
+
+flags:
+  - DUCTF{ThanksEl0nWeCantCall1tTheTw1tterFl4gN0w}
+
+type: standard
+value: 25

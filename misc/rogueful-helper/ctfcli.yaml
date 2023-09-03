@@ -1,0 +1,33 @@
+version: "0.1"
+id: rogueful-helper
+name: Rogueful Helper
+author: Conletz
+category: misc
+# description: |
+#   This is a forensics challenge with a large file download (1.6GB). The file is available to download now (encrypted) and the password and challenge details will be released later.
+
+#   [DUPWS213_investigation_package.enc.zip](https://bigfiles.duc.tf/DUPWS213_investigation_package.enc.zip) 
+
+#   Author: Conletz
+
+description: |
+  The DUC Corp security team began receiving alerts for reconaissance activity from a newly installed workstation. 
+  Analysts have put together a brief investigation package for triage.
+
+  What was the ICMP Payload used for the task that finished 2023-08-26 15:32:20?.
+  Flag format: `DUCTF{payload}`
+
+  [DUPWS213_investigation_package.enc.zip](https://bigfiles.duc.tf/DUPWS213_investigation_package.enc.zip) (sha256: `e7e12a1e421d685f8f1ecfebc33faa7bff5696b6b7c18559dd2389b6e5d1ac60`)
+
+  Password: `quooz6cuin5Aiw2aiRue9een2eimuviem2ibi2Ahr7Chiepeof9oxuz5oofeu1oo`
+
+  Author: Conletz
+
+flags:
+  - DUCTF{cHd5cmVxAWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE}
+  - DUCTF{cHd5cmVxAWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE=}
+  - cHd5cmVxAWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE
+  - cHd5cmVxAWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE=
+
+tags:
+  - medium

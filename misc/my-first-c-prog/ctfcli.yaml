@@ -1,0 +1,20 @@
+version: "0.1"
+id: myfirstcprog 
+name: My First C Program!
+category: misc
+description: |
+
+  I decided to finally sit down and learn C, and I don't know what all the fuss is about this language it writes like a _**dream**_!
+  
+  Here is my first challenge in C! Its really easy after you install the C installer installer, after that you just run it and you're free to fly away with the flag like a _**berd**_!
+
+  Author: pix
+
+tags:
+  - easy 
+
+files:
+  - ./publish/my_first_c_prog.c
+
+flags:
+  - DUCTF{I_D0nT_Th1nk_th15_1s_R34L_C}

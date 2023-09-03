@@ -1,0 +1,299 @@
+role_id,title,description
+EKSDeveloper,EKS Developer,Allows developers to create and manage Kubernetes clusters with Amazon EKS.
+ContainerDeveloper3,Container Developer,Enables developers to create and manage containerized applications on DownUnder Cloud Services.
+EKSAdministrator,EKS Administrator,Grants full access to manage Kubernetes clusters with Amazon EKS.
+DOCObjectStorageDeveloper,DigitalOcean Object Storage Developer,Enables developers to build and manage object storage on DigitalOcean.
+CloudMachineLearningDeveloper,Cloud Machine Learning Developer,Enables developers to build and deploy machine learning models on the cloud platform.
+DataFlowDeveloper,DataFlow Developer,Allows developers to create and manage data pipelines with DataFlow.
+DTSOperator,Data Transmission Service Operator,Allows managing and operating Alibaba Cloud Data Transmission Service (DTS) for data migration and synchronization.
+AppServicePlanAdmin,Azure App Service Plan Administrator,Grants full access to manage and configure Azure App Service Plans.
+AzureMapsDeveloper,Azure Maps Developer,Allows developers to integrate and manage Azure Maps services.
+CloudMeteringAnalyst,Cloud Metering Analyst,Provides access to analyze and report on cloud usage and metering on Oracle Cloud and DigitalOcean.
+ContainerServiceDeveloper,Container Service Developer,Enables developers to create and manage containerized applications with Alibaba Cloud Container Service for Kubernetes (ACK).
+MessageQueueDeveloper,Message Queue Developer,Enables developers to build and manage message queues on DownUnder Cloud Services.
+ADAppDeveloper,Azure AD App Developer,Enables developers to build and manage applications integrated with Azure Active Directory.
+ManagedKubernetesDeveloper,Managed Kubernetes Developer,Allows developers to build and manage managed Kubernetes clusters on DownUnder Cloud Services.
+CloudBudgetManager,Cloud Budget Manager,Enables managing and optimizing cloud budgets and expenses on DownUnder Cloud Services.
+CloudVideoIntelligenceAnalyst,Cloud Video Intelligence Analyst,Provides access to analyze and process videos using Cloud Video Intelligence API.
+CloudBuildViewer,Cloud Build Viewer,Allows read access to view Cloud Build projects and build details.
+MachineLearningSpecialist,Machine Learning Specialist,Allows access to advanced machine learning services and models on the cloud.
+WorkDocsAdmin,WorkDocs Administrator,Provides full access to manage and configure Amazon WorkDocs resources.
+RedshiftAdmin,Redshift Administrator,Grants full access to manage and configure Amazon Redshift clusters.
+AzureStreamAnalyticsAdmin,Azure Stream Analytics Administrator,Provides full access to manage and configure Azure Stream Analytics jobs.
+BackupOperator,Backup Operator,Enables managing and operating AWS Backup for data protection.
+EventHubOperator,Event Hub Operator,Allows managing and operating Azure Event Hubs for event ingestion.
+ResourceGroupsAdmin,Resource Groups Administrator,Provides full access to manage and configure AWS Resource Groups.
+GlueDataAdmin,Glue Data Administrator,Provides full access to manage data catalogs and ETL jobs with AWS Glue.
+FunctionComputeViewer2,Function Compute Viewer,Allows read access to view and inspect DownUnder Cloud Services Function Compute functions and configurations.
+BastionHostAdmin,Azure Bastion Host Administrator,Grants full access to manage and configure Azure Bastion Host for secure remote access.
+KeyVaultAdmin,Key Vault Administrator,Grants full access to manage and configure Azure Key Vaults for secrets and keys.
+APIGatewayDeveloper,API Gateway Developer,Enables developers to create and manage API Gateway configurations.
+TextractDeveloper,Textract Developer,Allows developers to build and integrate document text extraction with Amazon Textract.
+CloudGuardEngineer,CloudGuard Engineer,Enables engineers to manage and configure Oracle CloudGuard for security and compliance.
+DataViewer,Data Viewer,Allows read-only access to view data across various resources.
+DOCDatabaseAdmin,DigitalOcean Database Administrator,Provides full access to manage and configure DigitalOcean databases.
+NASAdmin,Network Attached Storage Administrator,Grants full access to manage and configure Alibaba Cloud Network Attached Storage (NAS) resources.
+DOCDatabasesViewer,DigitalOcean Databases Viewer,Allows read access to view and inspect DigitalOcean databases.
+CloudSpeechAnalyst,Cloud Speech Analyst,Provides access to analyze and process speech data using Cloud Speech-to-Text API.
+AWSBackupAdmin,AWS Backup Administrator,Provides full access to manage and configure AWS Backup resources and policies.
+CloudMonitoringAdmin2,Cloud Monitoring Administrator,Grants full access to manage and configure DownUnder Cloud Services monitoring and alerts.
+CodeStarDeveloper,CodeStar Developer,Enables developers to collaborate and develop projects with AWS CodeStar.
+OCIBucketAdmin,OCI Bucket Administrator,Provides full access to manage and configure Oracle Cloud Infrastructure (OCI) Object Storage buckets and objects.
+LoadBalancerViewer,Load Balancer Viewer,Allows read access to view and inspect DownUnder Cloud Services Load Balancer configurations.
+AzureBotsDeveloper,Azure Bots Developer,Enables developers to build and manage chatbots with Azure Bots.
+CloudResourceManagerAdmin,Cloud Resource Manager Administrator,Provides full access to manage and configure cloud resources with Resource Manager.
+DataPipelineDeveloper3,Data Pipeline Developer,Enables developers to create and manage data pipelines on Oracle Cloud and DigitalOcean.
+APIManagementAdmin,Azure API Management Administrator,Provides full access to manage and configure Azure API Management services.
+CloudSpeechEngineer,Cloud Speech Engineer,Enables integrating and processing speech using Cloud Speech-to-Text API.
+DataPipelineOperator,Data Pipeline Operator,Allows managing and operating data pipelines on DownUnder Cloud Services.
+MachineLearningEngineer1,Machine Learning Engineer,Enables building and managing machine learning models on Azure.
+AzureMonitorAnalyst,Azure Monitor Analyst,Provides access to analyze and monitor Azure resources with Azure Monitor.
+SignalRServiceAdmin,SignalR Service Administrator,Provides full access to manage and configure Azure SignalR Service resources.
+DatabaseQueryAnalyst,Database Query Analyst,Provides access to query and analyze data in DownUnder Cloud Services databases.
+DigitalOceanDropletAdmin,DigitalOcean Droplet Administrator,Grants full access to manage and configure DigitalOcean Droplets (virtual machines).
+DOCDNSDeveloper,DigitalOcean DNS Developer,Allows developers to manage and configure DigitalOcean DNS services.
+StorageAdmin1,Storage Administrator,Provides full access to manage and configure Azure Storage accounts and containers.
+CloudPolicyManager,Cloud Policy Manager,Enables managing and configuring policies and permissions on DownUnder Cloud Services.
+DataFactoryDeveloper,Data Factory Developer,Enables developers to create and manage data pipelines with Azure Data Factory.
+CloudIdentityDeveloper,Cloud Identity Developer,Allows developers to manage and configure Oracle Cloud and DigitalOcean identity and access management.
+SecurityAnalyst,Security Analyst,Offers read access to security-related information and logs for analysis.
+ECSMonitorAnalyst,ECS Monitor Analyst,Provides access to analyze and monitor Alibaba Cloud ECS instances with CloudMonitor.
+XRayDeveloper,X-Ray Developer,Enables developers to integrate and trace application performance with AWS X-Ray.
+CloudObjectStorageAdmin,Cloud Object Storage Administrator,Provides full access to manage and configure DownUnder Cloud Services Object Storage services.
+CloudStorageAdmin,Cloud Storage Administrator,Provides full access to manage and configure Oracle Cloud and DigitalOcean storage services.
+PinpointAnalyst,Pinpoint Analyst,Provides access to analyze and process user engagement data with Amazon Pinpoint.
+CloudComposerAdmin,Cloud Composer Administrator,Provides full access to manage and configure Cloud Composer environments and workflows.
+LexAnalyst,Lex Analyst,Provides access to analyze and improve chatbot interactions using Amazon Lex.
+OSSDeveloper,OSS Developer,Enables developers to access and manage Alibaba Cloud Object Storage Service (OSS) buckets and objects.
+DynamoDBAdmin,DynamoDB Administrator,Grants full access to manage and configure Amazon DynamoDB tables and data.
+CloudLoggingOperator,Cloud Logging Developer,Allows developers to integrate and manage logs with Oracle Cloud and DigitalOcean logging services.
+NetworkMonitoringViewer,Network Monitoring Viewer,Allows read access to view network monitoring data.
+CloudIAMOperator,Cloud IAM Operator,Allows managing and configuring Identity and Access Management (IAM) policies on DownUnder Cloud Services.
+ContainerRegistryDeveloper,Container Registry Developer,Allows developers to manage and operate DownUnder Cloud Services container registries.
+DOCDatabasesOperator1,DigitalOcean Databases Operator,Allows managing and operating DigitalOcean managed databases.
+DataLakeArchitect1,Data Lake Architect,Enables designing and managing data lakes on the AWS platform.
+ObjectStorageDeveloper1,Object Storage Developer,Enables developers to build and manage object storage on Oracle Cloud and DigitalOcean.
+LoadBalancerAdmin1,Load Balancer Administrator,Grants full access to manage and configure DownUnder Cloud Services Load Balancers.
+GlacierOperator,Glacier Operator,Allows managing and operating Amazon Glacier vaults and archives.
+FormRecognizerAnalyst,Azure Form Recognizer Analyst,Provides access to analyze and process forms and documents with Azure Form Recognizer.
+OracleComputeDeveloper,Oracle Compute Developer,Enables developers to create and manage virtual machines on Oracle Cloud.
+CodePipelineAdministrator,CodePipeline Administrator,Grants full access to manage and configure AWS CodePipeline pipelines.
+DOVirtualNetworkAdmin,DigitalOcean Virtual Network Administrator,Grants full access to manage and configure DigitalOcean Virtual Networks (VPCs).
+CloudEventHubAdmin,Cloud Event Hub Administrator,Provides full access to manage and configure DownUnder Cloud Services Event Hub for event ingestion.
+TranscribeAnalyst,Transcribe Analyst,Allows access to analyze and process transcribed speech using Amazon Transcribe.
+CloudTableStoreAdmin,Cloud Tablestore Administrator,Provides full access to manage and configure Alibaba Cloud Tablestore for NoSQL data storage.
+MachineLearningEngineer4,Machine Learning Engineer,Allows building and managing machine learning models and pipelines on DownUnder Cloud Services.
+GreengrassDeveloper,Greengrass Developer,Enables developers to build and manage AWS Greengrass applications.
+CloudDNSAdmin1,Cloud DNS Administrator,Enables managing and configuring DownUnder Cloud Services DNS services.
+VPCSecurityAnalyst1,Virtual Private Cloud Security Analyst,Allows access to analyze and monitor security configurations and logs in Alibaba Cloud Virtual Private Cloud (VPC).
+DigitalOceanDropletDeveloper,DigitalOcean Droplet Developer,Enables developers to create and manage virtual machines (Droplets) on DigitalOcean.
+CloudAutomationAdmin,Cloud Automation Administrator,Grants full access to manage and configure cloud automation services on DownUnder Cloud Services.
+ContainerDeveloper,Container Developer,Enables developers to create and manage containerized applications.
+DOObjectStorageAdmin,DigitalOcean Object Storage Administrator,Provides full access to manage and configure DigitalOcean Spaces for object storage.
+CloudBillingViewer,Cloud Billing Viewer,Allows read-only access to view cloud billing and cost information.
+DataBricksDeveloper,Azure Databricks Developer,Enables developers to build and manage data analytics and machine learning with Azure Databricks.
+VPCAdmin2,Virtual Private Cloud Administrator,Grants full access to configure and manage Alibaba Cloud Virtual Private Cloud (VPC) resources.
+LogicAppAdmin,Azure Logic App Administrator,Allows managing and configuring Azure Logic Apps for workflow automation.
+CloudLifeSciencesAnalyst,Cloud Life Sciences Analyst,Provides access to analyze and process life sciences data on the cloud.
+DataPipelineDeveloper2,Data Pipeline Developer,Enables developers to create and manage data pipelines with Alibaba Cloud Data Integration (DTS).
+KeyVaultDeveloper,Azure Key Vault Developer,Enables developers to access and manage secrets and keys in Azure Key Vault.
+AppSyncAdmin,AppSync Administrator,Provides full access to manage and configure AWS AppSync GraphQL APIs.
+ObjectStorageAdmin2,Object Storage Administrator,Provides full access to manage and configure DownUnder Cloud Services Object Storage services.
+CloudVisionDeveloper,Cloud Vision Developer,Allows developing applications that use Cloud Vision API for image processing.
+DataScienceAnalyst,Data Science Analyst,Provides access to query and analyze data for data science projects on Oracle Cloud and DigitalOcean.
+CloudDashboardDeveloper,Cloud Dashboard Developer,Enables developers to create and manage custom dashboards on DownUnder Cloud Services.
+S3Admin,S3 Administrator,Provides full access to manage and configure Amazon S3 buckets and objects.
+CENAdmin,Cloud Enterprise Network Administrator,Enables managing and configuring Alibaba Cloud Cloud Enterprise Network (CEN) for network interconnection.
+DOCDNSAdmin,DigitalOcean DNS Administrator,Provides full access to manage and configure DigitalOcean DNS services.
+VPCAdmin3,Virtual Private Cloud Administrator,Grants full access to configure and manage Oracle Cloud and DigitalOcean Virtual Private Cloud (VPC) resources.
+CloudLoggingAdmin,Cloud Logging Administrator,Grants full access to manage and configure Cloud Logging resources and logs.
+CloudDeploymentManager,Cloud Deployment Manager,Allows managing and deploying cloud resources using Deployment Manager.
+CloudAIPlatformViewer,Cloud AI Platform Viewer,Allows read access to view and monitor Cloud AI Platform resources.
+IAMPolicyAuditor,IAM Policy Auditor,Enables auditing IAM policies for compliance and security purposes.
+KubernetesOperator,Kubernetes Operator,Allows managing and operating Kubernetes clusters on the cloud platform.
+DOCDatabasesDeveloper,DigitalOcean Databases Developer,Enables developers to build and manage databases on DigitalOcean.
+CloudNetworkingOperator,Cloud Networking Operator,Enables managing and operating DownUnder Cloud Services networking resources.
+LoadBalancerOperator2,Load Balancer Operator,Allows managing and operating DownUnder Cloud Services Load Balancers.
+CloudLogReviewer,Cloud Log Reviewer,Allows reviewing and analyzing Cloud Logging data for monitoring and troubleshooting.
+IoTAnalyticsDeveloper,IoT Analytics Developer,Enables developers to build and manage analytics pipelines with AWS IoT Analytics.
+CloudNetworkAdmin,Cloud Network Administrator,Enables managing and configuring Oracle Cloud and DigitalOcean networking resources.
+ChimeAnalyst,Chime Analyst,Provides access to analyze and manage Amazon Chime communication and meetings.
+CloudSQLAdmin,Cloud SQL Administrator,Grants full access to manage Cloud SQL databases and resources.
+VNetAdmin,Virtual Network Administrator,Grants full access to configure and manage Azure Virtual Networks.
+CloudResourceScanner,Cloud Resource Scanner,Allows scanning cloud resources for security vulnerabilities.
+CloudDataLakeDeveloper,Cloud Data Lake Developer,Enables developers to build and manage data lake solutions on DownUnder Cloud Services.
+ComplianceAuditor2,Compliance Auditor,Grants permission to audit Alibaba Cloud resources for compliance purposes.
+CloudCostOptimizationManager,Cloud Cost Optimization Manager,Provides access to analyze and optimize cloud costs on DownUnder Cloud Services.
+DataFlowOperator,DataFlow Operator,Allows managing and operating data pipelines with Cloud DataFlow.
+CloudCDNAdmin,Cloud CDN Administrator,Provides full access to manage and configure DownUnder Cloud Services Content Delivery Network (CDN).
+CloudTranslationAnalyst,Cloud Translation Analyst,Provides access to translate text using Cloud Translation API.
+BigQueryDeveloper,BigQuery Developer,Allows querying and analyzing data using BigQuery.
+DOVPCAdmin,DigitalOcean Virtual Private Cloud Administrator,Provides full access to manage and configure DigitalOcean Virtual Private Cloud (VPC) resources.
+DatabaseAdmin,Database Administrator,Grants full access to manage and configure DownUnder Cloud Services database resources.
+COSBucketOperator,COS Bucket Operator,Enables managing and operating Alibaba Cloud Cloud Object Storage (COS) buckets and objects.
+AzureMapsAdmin,Azure Maps Administrator,Provides full access to manage and configure Azure Maps services and data.
+KMSKeyAdministrator1,Key Management Service Key Administrator,Enables managing and configuring Alibaba Cloud Key Management Service (KMS) encryption keys.
+CloudGuardAnalyst,CloudGuard Analyst,Provides access to analyze and respond to security incidents with Oracle CloudGuard.
+DataScienceAnalyst1,Data Science Analyst,Provides access to query and analyze data for data science projects on DownUnder Cloud Services.
+CloudMonitorOperator,Cloud Monitor Operator,Allows managing and operating Alibaba Cloud CloudMonitor for monitoring and alerts.
+AppGatewayAdmin,Azure Application Gateway Administrator,Provides full access to manage and configure Azure Application Gateway for web application firewall and load balancing.
+CloudWatchOperator,CloudWatch Operator,Enables managing and operating Amazon CloudWatch for monitoring and alarms.
+AppSyncDeveloper,AppSync Developer,Enables developers to build and manage GraphQL APIs with AWS AppSync.
+ADAdmin,Azure Active Directory Administrator,Enables managing and configuring Azure Active Directory resources.
+DataPrivacyOfficer,Data Privacy Officer,Enables monitoring and enforcing data privacy compliance on the cloud platform.
+Cloud9Developer,Cloud9 Developer,"Enables developers to write, run,  and debug code with AWS Cloud9."
+ComprehendMedicalAnalyst,Comprehend Medical Analyst,Provides access to analyze and process medical text with Amazon Comprehend Medical.
+FrontDoorAdmin,Azure Front Door Administrator,Grants full access to manage and configure Azure Front Door for global application delivery.
+ApplicationMonitorAnalyst,Application Monitor Analyst,Provides access to analyze and monitor application performance on DownUnder Cloud Services.
+MachineLearningEngineer,Machine Learning Engineer,Enables building and managing machine learning models on the cloud.
+NetworkingAdmin,Networking Administrator,Enables managing and configuring Oracle Cloud and DigitalOcean networking resources.
+DOBlockStorageOperator,DigitalOcean Block Storage Operator,Allows managing and operating block storage volumes on DigitalOcean.
+CloudNetworkEngineer,Cloud Network Engineer,Enables building and managing network infrastructure on DownUnder Cloud Services.
+ForecastAnalyst,Forecast Analyst,Allows access to build and evaluate forecasting models with Amazon Forecast.
+MediaConvertOperator,MediaConvert Operator,Allows managing and operating AWS Elemental MediaConvert for video conversion.
+OSSAdmin,OSS Administrator,Provides full access to manage and configure Alibaba Cloud Object Storage Service (OSS) buckets and objects.
+CloudHealthAnalyst,Cloud Health Analyst,Provides access to analyze and monitor the health and performance of Oracle Cloud and DigitalOcean resources.
+CognitiveServicesAnalyst,Cognitive Services Analyst,Allows access to analyze and process data with Azure Cognitive Services.
+BatchJobOperator,Batch Job Operator,Allows managing and executing AWS Batch jobs and job queues.
+CognitoDeveloper,Cognito Developer,Enables developers to build and manage user authentication with Amazon Cognito.
+CloudSecurityAnalyst,Cloud Security Analyst,Provides access to analyze and monitor security-related data with Alibaba Cloud Security Center.
+ManagedBlockchainAdmin,Managed Blockchain Administrator,Grants full access to manage and configure AWS Managed Blockchain networks.
+DataOpsAnalyst,DataOps Analyst,Provides access to analyze and optimize data operations on DownUnder Cloud Services.
+CloudSecuritySpecialist,Cloud Security Specialist,Allows access to advanced security features and controls on the cloud platform.
+CloudDataprocOperator,Cloud Dataproc Operator,Allows managing and operating Cloud Dataproc clusters.
+CloudLoggingOperator1,Cloud Logging Operator,Enables managing and operating DownUnder Cloud Services logging services.
+DataTransferAnalyst,Data Transfer Analyst,Provides access to transfer and import/export data using Data Transfer Service.
+ComplianceAuditor4,Compliance Auditor,Grants permission to audit DownUnder Cloud Services resources for compliance purposes.
+EventHubOperator1,Event Hub Operator,Allows managing and operating DownUnder Cloud Services Event Hub for event ingestion.
+APIGatewayDeveloper1,API Gateway Developer,Allows developers to build and manage APIs with DownUnder Cloud Services API Gateway.
+BackupRecoveryOperator,Backup and Recovery Operator,Allows managing and operating DownUnder Cloud Services backup and recovery services.
+AthenaAnalyst,Athena Analyst,Provides access to query and analyze data using Amazon Athena.
+DigitalOceanVPCAdmin,DigitalOcean Virtual Private Cloud Administrator,Grants full access to manage and configure DigitalOcean Virtual Private Cloud (VPC) resources.
+DataInsightsAnalyst,Data Insights Analyst,Provides access to analyze and derive insights from data on DownUnder Cloud Services.
+FrontDoorOperator,Azure Front Door Operator,Allows managing and operating Azure Front Door for global application delivery.
+OracleContainerOperator,Oracle Container Operator,Allows managing and operating Oracle Cloud Container Services.
+IAMManager,Identity and Access Management Manager,Enables managing IAM policies and permissions for users and resources.
+ContainerRegistryAdmin2,Container Registry Administrator,Grants full access to manage and configure Oracle Cloud and DigitalOcean Container Registry for container images.
+CloudNetworkingAnalyst,Cloud Networking Analyst,Provides access to analyze and optimize networking configurations on DownUnder Cloud Services.
+BillingViewer1,Billing Viewer,Allows read-only access to view AWS billing and cost information.
+DataCatalogSteward,Data Catalog Steward,Enables managing and organizing metadata in Data Catalog.
+CloudAuditor1,Cloud Auditor,Grants permission to audit AWS resources and access logs.
+KubernetesAdmin1,Kubernetes Administrator,Grants full access to manage and configure Kubernetes clusters on Oracle Cloud and DigitalOcean Kubernetes Service.
+StorageAdmin2,Storage Administrator,Provides full access to manage and configure DownUnder Cloud Services storage resources.
+EMRDeveloper,Elastic MapReduce Developer,Enables developers to create and manage big data analytics with Alibaba Cloud Elastic MapReduce (EMR).
+SageMakerOperator,SageMaker Operator,Allows managing and operating Amazon SageMaker training jobs and models.
+CloudSecurityEngineer,Cloud Security Engineer,Provides access to configure and manage security measures on DownUnder Cloud Services.
+DataScienceOpsDeveloper,Data Science Ops Developer,Allows deploying and managing data science solutions on DownUnder Cloud Services.
+CustomVisionOperator,Azure Custom Vision Operator,Enables managing and operating Azure Custom Vision for image recognition.
+DataLakeDeveloper1,Data Lake Developer,Allows developers to build and manage data lake analytics with Azure Data Lake Analytics.
+CloudAIPlatformAdmin,Cloud AI Platform Administrator,Provides full access to manage Cloud AI Platform resources.
+DOBlockStorageDeveloper,DigitalOcean Block Storage Developer,Enables developers to create and manage block storage volumes on DigitalOcean.
+CloudOrchestrationDeveloper,Cloud Orchestration Developer,Allows developers to create and manage cloud orchestration workflows on DownUnder Cloud Services.
+DataLakeArchitect,Data Lake Architect,Enables designing and managing data lakes on the cloud platform.
+DOObjectStorageOperator,DigitalOcean Object Storage Operator,Enables managing and operating DigitalOcean Spaces for object storage.
+CloudAutomationDeveloper,Cloud Automation Developer,Enables developers to build and manage cloud automation tasks on DownUnder Cloud Services.
+DTSAdmin,Data Transmission Service Administrator,Provides full access to manage and configure Alibaba Cloud Data Transmission Service (DTS) for data migration and synchronization.
+CloudAutoscalingAdmin,Cloud Autoscaling Administrator,Grants full access to manage and configure autoscaling resources on Oracle Cloud and DigitalOcean.
+ServerlessComputeDeveloper,Serverless Compute Developer,Enables developers to create and manage serverless compute resources on DownUnder Cloud Services.
+CloudCostOperator,Cloud Cost Operator,Enables managing and optimizing cloud costs on Oracle Cloud and DigitalOcean.
+ObjectStorageOperator1,Object Storage Operator,Allows managing and operating Oracle Cloud and DigitalOcean Object Storage for object storage management.
+CloudComputeAdmin,Cloud Compute Administrator,Provides full access to manage and configure cloud compute resources.
+ContainerServiceOperator,Container Service Operator,Enables managing and operating Alibaba Cloud Container Service for Kubernetes (ACK).
+StepFunctionsExecutor,Step Functions Executor,Allows invoking and executing AWS Step Functions.
+AIModelOpsDeveloper,AI Model Ops Developer,Allows deploying and managing AI models in production on DownUnder Cloud Services.
+CloudIdentityAdmin,Cloud Identity Administrator,Grants full access to manage and configure Oracle Cloud and DigitalOcean identity and access management.
+CloudDNSAdmin,Cloud DNS Administrator,Provides full access to manage and configure Oracle Cloud and DigitalOcean DNS services.
+SLBDeveloper,Server Load Balancer Developer,Enables developers to build and manage Alibaba Cloud Server Load Balancer for load balancing.
+CloudMemorystoreAdmin,Cloud Memorystore Administrator,Provides full access to manage Cloud Memorystore instances.
+DOCDNSViewer,DigitalOcean DNS Viewer,Allows read access to view and inspect DigitalOcean DNS settings.
+SnowballOperator,Snowball Operator,Allows managing and operating AWS Snowball for data migration.
+ContainerRegistryOperator,Azure Container Registry Operator,Enables managing and operating Azure Container Registry for container image management.
+AzureMonitorOperator,Azure Monitor Operator,Enables managing and configuring monitoring and alerts with Azure Monitor.
+GuardDutyAnalyst,GuardDuty Analyst,Provides access to analyze and respond to security findings with Amazon GuardDuty.
+DataPipelineDeveloper1,Data Pipeline Developer,Enables developers to create and manage data pipelines with AWS Data Pipeline.
+OracleBlockStorageAdmin,Oracle Block Storage Administrator,Provides full access to manage and configure Oracle Cloud Block Volumes.
+KMSKeyAdministrator,KMS Key Administrator,Grants full access to manage and configure AWS KMS encryption keys.
+DataOpsEngineer,DataOps Engineer,Enables building and managing data operations pipelines on DownUnder Cloud Services.
+LogicAppDeveloper,Logic App Developer,Enables developers to create and manage workflows with Azure Logic Apps.
+DataLakeAnalyst1,Data Lake Analyst,Allows access to query and analyze data in Azure Data Lake Storage.
+NeptuneAdmin,Neptune Administrator,Grants full access to manage and configure Amazon Neptune graph databases.
+CloudBackupOperator,Cloud Backup Operator,Allows managing and operating backup and recovery services on DownUnder Cloud Services.
+AutoMLSpecialist,AutoML Specialist,Allows access to AutoML services for specialized model training.
+CloudBillingAdmin1,Cloud Billing Administrator,Grants full access to manage and configure billing and cost information on DownUnder Cloud Services.
+ServiceMeshOperator,Service Mesh Operator,Enables managing service mesh configurations and operations.
+ContainerServiceOperator2,Container Service Operator,Enables managing and operating DownUnder Cloud Services container services.
+CloudMigrationEngineer,Cloud Migration Engineer,Allows planning and executing cloud migration projects on DownUnder Cloud Services.
+AppInsightsAnalyst,Application Insights Analyst,Provides access to analyze and monitor application performance with Azure Application Insights.
+CloudMonitoringAdmin1,Cloud Monitoring Administrator,Provides full access to manage and configure Oracle Cloud and DigitalOcean monitoring services.
+CloudMeteringOperator,Cloud Metering Operator,Allows managing and operating cloud usage metering on Oracle Cloud and DigitalOcean.
+DataLakeAdmin2,Data Lake Administrator,Provides full access to manage and configure Alibaba Cloud Data Lake Analytics (DLA) resources.
+HDInsightAdmin,Azure HDInsight Administrator,Grants full access to manage and configure Azure HDInsight clusters.
+LambdaViewer,Lambda Viewer,Allows read access to view and inspect AWS Lambda functions and configurations.
+AthenaDeveloper,Athena Developer,Enables developers to create and manage data queries using Amazon Athena.
+DOCDeployer,DigitalOcean App Deployer,Allows deploying applications on DigitalOcean App Platform.
+CloudAppDeveloper,Cloud App Developer,Enables developers to build and manage cloud-native applications on DownUnder Cloud Services.
+ResourceMonitorOperator,Resource Monitor Operator,Allows managing and operating Alibaba Cloud Resource Monitoring Service (ARMS) for resource monitoring.
+CloudFormationAdmin,CloudFormation Administrator,Provides full access to manage and configure AWS CloudFormation stacks and resources.
+MachineLearningAnalyst,Machine Learning Analyst,Provides access to analyze and process machine learning data on DownUnder Cloud Services.
+ROSTemplateDeveloper,Resource Orchestration Service Template Developer,Allows developers to create and manage templates with Alibaba Cloud Resource Orchestration Service (ROS).
+ASKSOperator,Anti-DDoS Service Operator,Allows managing and operating Alibaba Cloud Anti-DDoS Service for DDoS protection.
+ActionTrailDeveloper,ActionTrail Developer,Enables developers to build and manage audit trails with Alibaba Cloud ActionTrail.
+DigitalOceanLoadBalancerAdmin,DigitalOcean Load Balancer Administrator,Provides full access to manage and configure DigitalOcean Load Balancers.
+ServiceBusOperator,Service Bus Operator,Allows managing and operating Azure Service Bus for message-based communication.
+DataBricksAdmin,Azure Databricks Administrator,Provides full access to manage and configure Azure Databricks workspaces and resources.
+DNSDeveloper,Domain Name Service Developer,Enables developers to manage and configure Alibaba Cloud Domain Name Service (DNS).
+NATGatewayAdmin,NAT Gateway Administrator,Provides full access to manage and configure Alibaba Cloud NAT Gateway for network address translation.
+CloudAuditor,Cloud Auditor,Grants permission to audit cloud resources and access logs.
+DBaaSDeveloper,Database-as-a-Service Developer,Allows developers to create and manage databases on Oracle Cloud.
+DataWarehouseAdmin,Data Warehouse Administrator,Grants full access to manage and configure DownUnder Cloud Services Data Warehouse resources.
+CloudIAMPolicyReviewer,Cloud IAM Policy Reviewer,Allows reviewing and auditing IAM policies for compliance and security.
+CloudMemorystoreViewer,Cloud Memorystore Viewer,Allows read access to view Cloud Memorystore instances and resources.
+OracleBlockchainOperator,Oracle Blockchain Operator,Allows managing and operating blockchain applications on Oracle Cloud.
+CloudIAMAdmin,Cloud IAM Administrator,Grants full access to manage and configure DownUnder Cloud Services Identity and Access Management (IAM) policies.
+SQLDatabaseAnalyst,SQL Database Analyst,Provides access to query and analyze data in Azure SQL Databases.
+LoggingViewer,Logging Viewer,Provides read access to view logs and monitoring data.
+CloudTableStoreDeveloper,Cloud Tablestore Developer,Enables developers to build and manage NoSQL databases with Alibaba Cloud Tablestore.
+ContainerRegistryAdmin,Azure Container Registry Administrator,Enables managing and configuring Azure Container Registry for container images.
+FunctionAppOperator1,Function Compute Operator,Allows managing and operating DownUnder Cloud Services Function Compute for serverless computing.
+VMOperator,Virtual Machine Operator,Allows managing Oracle Cloud and DigitalOcean virtual machines and performing basic operations.
+IAMPolicyEditor,Identity and Access Management Policy Editor,Enables editing IAM policies for users and resources.
+IoTCoreDeveloper,IoT Core Developer,Enables developers to build and manage IoT applications with AWS IoT Core.
+CloudDataLakeAdmin,Cloud Data Lake Administrator,Grants full access to manage and configure DownUnder Cloud Services Data Lake resources.
+RDSAnalyst,RDS Analyst,Provides access to query and analyze data in Amazon RDS databases.
+AppDeveloper1,Application Developer,Enables developers to deploy and manage applications on the Azure platform.
+FirebaseDeveloper,Firebase Developer,Enables developers to build and manage applications with Firebase services.
+ComprehendOperator,Comprehend Operator,Allows managing and operating Amazon Comprehend for natural language processing.
+CloudVPNAdmin,Cloud VPN Administrator,Enables managing and configuring DownUnder Cloud Services Virtual Private Network (VPN) resources.
+CloudIdentityOperator,Cloud Identity Operator,Allows managing and configuring Oracle Cloud and DigitalOcean identity and access management.
+OracleStreamingAnalyst,Oracle Streaming Analyst,Provides access to analyze and process event streams on Oracle Cloud Streaming service.
+GlueAdministrator,Glue Administrator,Provides full access to manage and configure AWS Glue data catalogs and resources.
+AppServiceAdmin,App Service Administrator,Grants full access to manage and configure DownUnder Cloud Services App Service platform.
+MachineLearningEngineer2,Machine Learning Engineer,Enables building and managing machine learning models on Alibaba Cloud.
+CloudLoadBalancerAdmin,Cloud Load Balancer Administrator,Allows managing and configuring HTTP(S) load balancers on the cloud platform.
+CodePipelineDeveloper,CodePipeline Developer,Enables developers to create and manage CI/CD pipelines with AWS CodePipeline.
+CloudMigrationAnalyst,Cloud Migration Analyst,Provides access to analyze and plan cloud migration strategies on DownUnder Cloud Services.
+CosmosDBAnalyst1,Fake Database Analyst,Provides access to query and analyze data in the DownUnder Cloud Services database services.
+TimeSeriesInsightsAnalyst,Azure Time Series Insights Analyst,Provides access to analyze and process time-series data with Azure Time Series Insights.
+DOBlockStorageAdmin,DigitalOcean Block Storage Administrator,Provides full access to manage and configure DigitalOcean block storage volumes.
+BillingViewer2,Billing Viewer,Allows read-only access to view Azure billing and cost information.
+CloudIncidentManager,Cloud Incident Manager,Enables managing and responding to security incidents on Oracle Cloud and DigitalOcean.
+LoadBalancerOperator1,Load Balancer Operator,Allows managing and operating load balancers on Oracle Cloud and DigitalOcean.
+DataPipelineDeveloper4,Data Pipeline Developer,Enables developers to create and manage data pipelines on DownUnder Cloud Services.
+BillingViewer3,Billing Viewer,Allows read-only access to view Alibaba Cloud billing and cost information.
+CloudWatchOperator1,CloudWatch Operator,Enables managing and operating Oracle Cloud and DigitalOcean monitoring services.
+OCIStreamingViewer,OCI Streaming Viewer,Allows read access to view and inspect Oracle Cloud Streaming service event streams.
+GameLiftDeveloper,GameLift Developer,Allows developers to create and manage game servers with Amazon GameLift.
+DOBlockStorageViewer,DigitalOcean Block Storage Viewer,Allows read access to view and inspect DigitalOcean block storage volumes.
+COSBucketAdmin,COS Bucket Administrator,Allows managing and configuring Alibaba Cloud Cloud Object Storage (COS) buckets and objects.
+CloudVideoIntelligenceDeveloper,Cloud Video Intelligence Developer,Enables developers to build applications that use Cloud Video Intelligence API.
+AKSDeveloper,AKS Developer,Enables developers to deploy and manage applications on Azure Kubernetes Service (AKS).
+DataOpsDeveloper,DataOps Developer,Enables developers to build and manage data operations pipelines on DownUnder Cloud Services.
+VPCSecurityManager,VPC Security Manager,Grants access to manage VPC firewall rules and security policies.
+EventGridOperator,Azure Event Grid Operator,Allows managing and operating Azure Event Grid for event-driven applications.
+CloudSearchAdmin,CloudSearch Administrator,Grants full access to manage and configure Amazon CloudSearch domains.
+DataSyncOperator,DataSync Operator,Allows managing and operating AWS DataSync for data transfer.
+CloudMonitorAdmin1,Cloud Monitor Administrator,Provides full access to manage and configure Alibaba Cloud CloudMonitor for monitoring and alerts.
+FunctionAppOperator,Function App Operator,Allows managing and operating Azure Functions.
+CloudLogsViewer,Cloud Logs Viewer,Allows read access to view and inspect DownUnder Cloud Services log data.
+CloudResourceGovernor,Cloud Resource Governor,Enables managing and governing resources on Oracle Cloud and DigitalOcean.
+DataGovernanceSpecialist,Data Governance Specialist,Enables implementing and managing data governance policies on the cloud platform.

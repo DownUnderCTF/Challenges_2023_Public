@@ -1,0 +1,31 @@
+version: "0.1" # ctfcli version (leave as is)
+id: eightfivefourfive # internal challenge id (do not change this)
+name: Eight Five Four Five # challenge name to be displayed
+category: blockchain # challenge category
+description: |
+  Warming up, let's get you setup and make sure you can connect to the blockchain infra ok :).
+  Your challenge is to ensure the `isSolved()` function returns true!
+
+  Author: Blue Alder
+
+  Estimated startup time: 90 seconds
+
+hosting:
+  type: kube
+type: kubectf
+extra:
+  template_name: blockchain-eightfivefourfive
+# use this if your challenge involves a remote service
+# for http challenges, use ${url} instead
+# connection_info: nc ${host} ${port}
+
+# a list of tags for your challenge
+tags:
+  - beginner
+
+# list of files to hand out to players
+files:
+  - ./publish/EightFiveFourFive.sol
+
+flags:
+  - DUCTF{I_can_connect_to_8545_pretty_epic:)}

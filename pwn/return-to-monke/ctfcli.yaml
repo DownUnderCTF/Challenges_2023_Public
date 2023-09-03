@@ -1,0 +1,25 @@
+version: "0.1"
+id: return-to-monke
+name: return to monke
+category: pwn
+description: |
+  Time to embrace your inner monke.
+
+  Commit: `38bc24b98fef2b7459fd2efef47fb303bc9475d8`
+
+  Author: sradley
+
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml
+
+connection_info: nc ${host} ${port}
+
+tags:
+  - hard
+
+files:
+  - ./publish/return-to-monke.tar.gz
+
+flags:
+  - DUCTF{y0uVe_r3tuRn3d_to_m0nkE_nOW_reJ3ct_hUm4Nity_38216b3ff7e281554c9d8eced68d3357} 

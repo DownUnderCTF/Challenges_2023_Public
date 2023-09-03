@@ -1,0 +1,42 @@
+G'DAY MATE!
+
+IMPOHT ME FUNC HitTheSack;
+I RECKON STREWTH = "}";
+IMPOHT ME FUNC ChuckSomeDice;
+
+THE HARD YAKKA FOR PRINT_FLAG IS () <
+  GIMME "YEAH MATE!, LETS PRINT THE FLAG";
+  HitTheSack(5000);
+  
+  I RECKON ME_BBQ = 1;
+  I RECKON YA_FLAG = "CTFDU{YaFlagAin'tHereMate!}";
+
+  YA RECKON ME_BBQ == 1 ? <
+    GIMME YA_FLAG;
+  >
+  
+  HitTheSack(5000);
+>
+  
+
+I RECKON GLAF = "DUCTF{";
+THE HARD YAKKA FOR THE_CTF IS () <
+	GIMME "Fetch'n the flag for ya mate!";
+    I RECKON HappyHour = "1ts-5oCl0cK_5om3wh3RE";
+	I RECKON I'LL HAVE A WALKABOUT UNTIL (YEAH, NAH!) <
+	    GIMME "Where the flamin' galah is ya flag...";
+		
+		HitTheSack(1000);
+
+		YA RECKON ChuckSomeDice(0, 6) == 0 ? MATE FUCK THIS;
+	>
+  GIMME "Bloody hell mate, I found it, some right bloody drongo left it near a croc";
+	GIMME GLAF + HappyHour + STREWTH;
+>
+
+THE_CTF();
+
+GIMME "Enjoy the rest of the CTF!";
+
+CHEERS C***!
+

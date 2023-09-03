@@ -1,0 +1,24 @@
+version: "0.1"
+id: helpless
+name: helpless
+category: beginner
+description: |
+  I accidentally set my system shell to the Python `help()` function! Help!!
+
+  The flag is at `/home/ductf/flag.txt`.
+
+  The password for the `ductf` user is `ductf`.
+  
+  Author: hashkitten
+
+hosting:
+  type: kube
+  template: tcp-challenge.yaml
+  
+connection_info: ssh ductf@${host} -p${port}
+
+tags:
+  - misc
+
+flags:
+  - DUCTF{sometimes_less_is_more}

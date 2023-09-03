@@ -1,0 +1,24 @@
+version: "0.1"
+id: one-byte
+name: one byte
+category: beginner
+description: |
+  Here's a one byte buffer overflow!
+
+  Author: joseph
+
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml
+
+connection_info: nc ${host} ${port}
+
+tags:
+  - pwn
+
+files:
+  - ./publish/onebyte
+  - ./publish/onebyte.c
+
+flags:
+  - DUCTF{all_1t_t4k3s_is_0n3!}

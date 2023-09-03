@@ -1,0 +1,2 @@
+Hint 1: The vulnerability lies within the `/files` endpoint handled by the static resource `_handle` method in the aiohttp library as hinted by the comment. Look there for a vulnerability to read other files on the server.
+Hint 2: Look for a path traversal vulnerability. When sending your request, make sure paths are sent as is and not normalised (which is done automatically by your browser). A tool like `curl` with the `--path-as-is` flag might help.

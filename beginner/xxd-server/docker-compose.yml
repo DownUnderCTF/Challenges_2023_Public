@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  xxdserver:
+    build: src/
+    container_name: xxdserver
+    ports:
+      - 3000:80
+    restart: "no"

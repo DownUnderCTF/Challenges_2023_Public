@@ -1,0 +1,20 @@
+version: "0.1"
+id: masked_squares_flag_checker
+name: masked squares flag checker
+category: rev
+description: |
+  This program checks the flag based on some simple arithmetic operations.
+
+  Author: joseph
+
+hosting:
+  type: file
+
+tags:
+  - easy
+
+files:
+  - ./publish/ms_flag_checker
+
+flags:
+  - DUCTF{ezzzpzzz_07bcda7bfe81faf43caa}

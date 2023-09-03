@@ -1,0 +1,20 @@
+version: "0.1"
+id: baby-ruby
+name: baby ruby
+category: misc
+description: |
+  How well do you know your Ruby?
+
+  The flag is at `/chal/flag`.
+
+  Author: hashkitten
+connection_info: nc ${host} ${port}
+tags:
+  - medium
+files:
+  - ./publish/baby.rb
+flags:
+  - DUCTF{how_to_pwn_ruby_in_four_easy_steps}
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml

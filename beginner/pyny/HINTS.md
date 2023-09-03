@@ -1,0 +1,2 @@
+- What does the `coding:` directive do? What is `punycode`.
+- Use Python to undo the encoding. (Note: the main trick is that a leading newline needs to be preserved.)

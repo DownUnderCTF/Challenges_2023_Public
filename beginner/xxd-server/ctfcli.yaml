@@ -1,0 +1,22 @@
+version: "0.1"
+id: xxd-server
+name: xxd-server
+category: beginner
+description: |
+  I wrote a little app that allows you to hex dump files over the internet.
+
+  Author: hashkitten
+
+hosting:
+  type: kube
+  template: web-challenge.yaml
+connection_info: ${url}
+
+tags:
+  - web
+
+files:
+  - ./publish/xxd_server.zip
+
+flags:
+  - DUCTF{00000000__7368_656c_6c64_5f77_6974_685f_7878_6421__shelld_with_xxd!}

@@ -1,0 +1,24 @@
+version: "0.1"
+id: binary-mail
+name: binary mail
+category: pwn
+description: |
+  Welcome to binary mail v0.1.0. As we are still in beta, please consider all bugs as features for the time being.
+
+  Author: joseph
+
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml
+
+connection_info: nc ${host} ${port}
+
+tags:
+  - medium
+
+files:
+  - ./publish/binary_mail.c
+  - ./publish/binary_mail
+
+flags:
+  - DUCTF{y0uv3_g0t_ma1l_and_1ts_4_flag_cada60be8ab71a}

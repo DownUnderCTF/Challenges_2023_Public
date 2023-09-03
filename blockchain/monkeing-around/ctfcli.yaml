@@ -1,0 +1,28 @@
+version: "0.1" # ctfcli version (leave as is)
+id: monkeing-around # internal challenge id (do not change this)
+name: Monkeing Around
+category: blockchain
+description: |
+  I let some monkes take control of my smart contract development and they have messed everything up!
+  Can you take back ownership of the contract?
+
+  Goal: Become owner of the MonkeingAround contract
+
+  Author: Blue Alder
+
+  Estimated startup time: 90 seconds
+
+hosting:
+  type: kube
+type: kubectf
+extra:
+  template_name: blockchain-monkeing-around
+
+tags:
+  - medium
+
+files:
+  - ./publish/MonkeingAround.sol
+
+flags:
+  - DUCTF{delgate_to_a_delegate_to_a_delegate_to_a_delegate}

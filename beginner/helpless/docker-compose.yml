@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  chall:
+    build: ./src
+    restart: always
+    ports:
+      - "1337:1337"

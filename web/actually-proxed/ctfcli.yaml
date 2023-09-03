@@ -1,0 +1,25 @@
+version: "0.1"
+id: actually-proxed
+name: actually-proxed
+category: web
+description: |
+  Still cool haxxorz only!!!
+  Except this time I added in a reverse proxy for extra security.
+  Nginx and the standard library proxy are waaaayyy too slow (amateurs). So I wrote my own :D
+
+  Author: Jordan Bertasso
+
+hosting:
+  type: kube
+  template: tcp-challenge.yaml
+
+connection_info: http://actually.proxed.duc.tf:${port}
+
+tags:
+  - easy
+
+files:
+  - ./publish/actually-proxed.tar.gz
+
+flags:
+  - DUCTF{y0ur_c0d3_15_n07_b3773r_7h4n_7h3_574nd4rd_l1b}

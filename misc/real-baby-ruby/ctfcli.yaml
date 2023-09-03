@@ -1,0 +1,20 @@
+version: "0.1"
+id: real-baby-ruby
+name: real baby ruby
+category: misc
+description: |
+  How well do you really know your Ruby?
+
+  The flag is at `/chal/flag`.
+
+  Author: hashkitten
+connection_info: nc ${host} ${port}
+tags:
+  - medium
+files:
+  - ./publish/real-baby.rb
+flags:
+  - DUCTF{sorry_for_the_unintended,hope_this_was_better_:-)}
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml

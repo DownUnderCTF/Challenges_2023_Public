@@ -1,0 +1,8 @@
+version: '3.0'
+services:
+  web:
+    build: src/.
+    ports:
+      - "5000:80"
+    # restart: always
+    container_name: cgi-fridays

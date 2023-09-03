@@ -1,0 +1,28 @@
+version: "0.1"
+id: discord
+name: discord
+category: beginner
+description: |
+  Have you joined our discord yet (https://duc.tf/discord)? 
+
+  We have a really helpful support team and lots of other competitors also paying in DUCTF 4.0
+
+  However, the support team are slowly being converted to the way of the monke. So apologies for the delays that might occur because of that. 
+  
+  Why don't you take a listen to the custom hold video the support team made in `#rules` while you wait for your tickets to be answered.
+
+  Note: Flag is in flag format, in all uppercase with no spaces.
+
+  Author: Crem
+
+tags:
+  - misc
+
+flags:
+  - DUCTF{REJECTHUMANITYRETURNTOOURSUPPORTQUEUE}
+  - REJECTHUMANITYRETURNTOOURSUPPORTQUEUE
+  - DUCTF{rejecthumanityreturntooursupportqueue}
+  - rejecthumanityreturntooursupportqueue
+
+type: standard
+value: 25

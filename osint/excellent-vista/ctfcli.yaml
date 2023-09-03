@@ -1,0 +1,39 @@
+version: "0.1"
+id: excellent-vista
+name: Excellent Vista!
+category: osint
+description: |
+  What a nice spot to stop,lookout and watch time go by, EXAMINE the image and discover where this was taken.
+
+  NOTE: Flag is case-insensitive and requires placing inside `DUCTF{}` wrapper!
+  e.g `DUCTF{Osint_Lookout}`
+
+  Author: Anon
+
+tags:
+  - beginner
+
+files:
+  - ./publish/ExcellentVista.jpg
+
+flags:
+  - {
+      type: "static",
+      content: "DUCTF{Durrangan_Lookout}",
+      data: "case_insensitive",
+  }
+  - {
+      type: "static",
+      content: "Durrangan_Lookout",
+      data: "case_insensitive",
+  }
+  - {
+      type: "static",
+      content: "DUCTF{Durrangan Lookout}",
+      data: "case_insensitive",
+  }
+  - {
+      type: "static",
+      content: "Durrangan Lookout",
+      data: "case_insensitive",
+  }

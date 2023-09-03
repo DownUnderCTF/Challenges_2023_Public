@@ -1,0 +1,23 @@
+version: "0.1"
+id: vroom-vroom
+name: vroom vroom
+category: pwn
+description: |
+  Gotta go fast
+
+  Author: sradley
+
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml
+
+connection_info: nc ${host} ${port}
+
+tags:
+  - hard
+
+files:
+  - ./publish/vroom-vroom.tar.gz
+
+flags:
+  - DUCTF{BuT_wHy_i5_v8_CaR_tH3mED_tH0Ugh_abf86c295245c2523c51384afd345741}

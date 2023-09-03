@@ -1,0 +1,27 @@
+version: "3.3"
+services:
+  eightfivefourfive:
+    build: src/
+    container_name: eightfivefourfive
+    environment:
+      - BLOCKCHAIN_RPC_URL=http://geth:8545
+      - DEPLOYER_PRIVATE_KEY=0558f2f58ed88f9bdb7bc2aa6839dcd97b46400d71cc86d23ecab989ff1ccf21
+      # - CONFIG_FILE_NAME=challenge.yaml
+    ports:
+      - 3000:3000
+    restart: "no"
+  geth:
+    image: ghcr.io/downunderctf/eth-challenge-base/geth:latest
+    container_name: geth
+    environment:
+      - DEPLOYER_PRIVATE_KEY=0558f2f58ed88f9bdb7bc2aa6839dcd97b46400d71cc86d23ecab989ff1ccf21
+      - BLOCK_TIME=0
+      # - CHAIN_ID=31337
+    ports:
+      - 8545:8545
+    restart: "no"
+
+
+
+networks:
+  default:

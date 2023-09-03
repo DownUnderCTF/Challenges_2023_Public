@@ -1,0 +1,26 @@
+version: "0.1"
+id: impossible
+name: impossible
+author: ghostccamm
+category: misc
+description: |
+  Lol I thought it would be funny to commit a CTF iceberg taboo and make an unsolvable CTF challenge, then gaslight competitors in support tickets.
+  
+  There is no solution. I don't even know why I **published** files for this challenge anyway.
+
+  Author: ghostccamm
+
+connection_info: ${url}
+
+hosting:
+  type: kube
+  template: web-challenge.yaml
+
+flags:
+  - DUCTF{o0p5_i_f0rG0t_aBoUt_pYc4Ch3!!1!}
+
+tags:
+  - easy
+
+files:
+  - publish/impossible.zip

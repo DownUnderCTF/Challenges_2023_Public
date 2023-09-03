@@ -1,0 +1,26 @@
+version: "0.1"
+id: survey
+name: Survey
+category: misc
+description: |
+  Tell us what you thought about DownUnderCTF 2023 and you will get a flag for your trouble; https://forms.gle/HJ64uPPpyX8oZYUM9
+
+  Author: DUCTF_TEAM
+
+tags:
+  - misc
+
+flags:
+  - {
+      type: "static",
+      content: "DUCTF{48-fun-hours-thx-4-playing-DUCTF4}",
+      data: "case_insensitive",
+  }
+  - {
+      type: "static",
+      content: "DUCTF{48_fun_hours_thx_4_playing_DUCTF4}",
+      data: "case_insensitive",
+  }
+
+type: standard
+value: 25

@@ -1,0 +1,28 @@
+version: "0.1" # ctfcli version (leave as is)
+id: another-please # internal challenge id (do not change this)
+name: Another Please # challenge name to be displayed
+category: blockchain # challenge category
+description: |
+  A smart contract system is selling DownUnderLand tickets! Can you get them all?
+
+  Goal: Own all 30 tickets to DownUnderLand in your player wallet.
+
+  Author: BlueAlder
+
+  Estimated startup time: 90 seconds
+
+hosting:
+  type: kube
+type: kubectf
+extra:
+  template_name: blockchain-another-please
+# a list of tags for your challenge
+tags:
+  - easy
+
+# list of files to hand out to players
+files:
+  - ./publish/AnotherPlease.sol
+
+flags:
+  - DUCTF{now_thats_a_lotta_DUCTF_monke_nfts}

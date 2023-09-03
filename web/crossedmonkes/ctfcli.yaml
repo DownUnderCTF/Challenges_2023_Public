@@ -1,0 +1,31 @@
+version: "0.1"
+id: crossedmonkes
+name: crossed monkes
+author: ghostccamm
+category: web
+description: |
+  Ghostccamm gave 24 monkes 4,200 cans of energy drinks and locked them in a basement to develop a *secure file sharing platform*.
+
+  After 3 days with no sleep, the monkes built this website. However, they are very **cross** for some reason.
+
+  **Important!** When exploiting the challenge instance, use your instance hostname **not http://monkestorage:3000**!
+
+  Author: ghostccamm
+
+  Estimated startup time: 60 seconds
+
+flags:
+  - DUCTF{tH3_m0Nk3S_aR3_n0w_m3g4_XroSS}
+
+tags:
+  - hard
+  - bot
+
+files:
+  - ./publish/crossedmonkes.zip
+
+hosting:
+  type: kube
+type: kubectf
+extra:
+  template_name: web-crossedmonkes

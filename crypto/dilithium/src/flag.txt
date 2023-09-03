@@ -1,0 +1,26 @@
+DUCTF{1n_r34l_l1fe_dilithium_is_actu4lly_a_m0l3cule_ce75f66577ef45e17edde8a5b4}
+--------------------------------------------------------------------------------
+For an extra challenge, try the following (some may or may not be possible)
+
+
+Homework 1: Recover the s2 and t0 components of the secret key.
+
+
+Homework 2: Apply the following patch instead:
+
+diff --git a/ref/sign.c b/ref/sign.c
+index 5d0455c..1ec0a89 100644
+--- a/ref/sign.c
++++ b/ref/sign.c
+@@ -147,8 +147,6 @@ rej:
+   polyvecl_invntt_tomont(&z);
+   polyvecl_add(&z, &z, &y);
+   polyvecl_reduce(&z);
+-  if(polyvecl_chknorm(&z, GAMMA1 - BETA))
+-    goto rej;
+
+   /* Check that subtracting cs2 does not change high bits of w and low bits
+    * do not reveal secret information */
+
+
+Homework 3: Break the scheme without any modifications.

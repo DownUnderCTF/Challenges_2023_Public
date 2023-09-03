@@ -1,0 +1,21 @@
+version: "0.1"
+id: monke-bars
+name: monke bars
+category: osint
+description: |
+  I will be dropping my new track **monke bars** soon! But I suck at rap and don't want to share it...
+
+  *Can you find the song?*
+
+  NOTE: Flag is in the format `DUCTF{...}` with no spaces and all lowercase between the `{}` characters.
+  e.g. DUCTF{icannotrap}
+
+  Author: ghostccamm
+tags:
+  - easy
+flags:
+  - {
+      type: "static",
+      content: "DUCTF{smackithackitdropthatpacketcrackthistrack}",
+      data: "case_insensitive",
+  }

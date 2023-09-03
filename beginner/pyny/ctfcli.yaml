@@ -1,0 +1,20 @@
+version: "0.1"
+id: pyny
+name: pyny
+category: beginner
+description: |
+  I've never seen a Python program like this before.
+
+  Author: hashkitten
+
+hosting:
+  type: file
+
+tags:
+  - rev
+
+files:
+  - ./publish/pyny.py
+
+flags:
+  - DUCTF{python_warmup}

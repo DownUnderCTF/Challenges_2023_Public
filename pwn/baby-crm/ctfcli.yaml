@@ -1,0 +1,23 @@
+version: "0.1"
+id: baby-crm
+name: baby crm
+category: pwn
+description: |
+  CRM has never been easier!
+
+  Author: grub
+
+hosting: 
+  type: kube
+  template: tcp-challenge-privileged.yaml
+
+connection_info: nc ${host} ${port}
+
+tags:
+  - hard
+
+files:
+  - ./publish/baby-crm.tar.gz
+
+flags:
+  - DUCTF{0u7_0f_5c0p3_0u7_0f_m1nd}

@@ -1,0 +1,22 @@
+version: "0.1" # ctfcli version (leave as is)
+id: comeacroppa
+name: Comeacroppa # challenge name to be displayed
+category: osint # challenge category
+description: |
+  I was sorting through my photo album and I cannot seem to place this picture. Can you let me know what suburb this is in?
+  
+  Flag format DUCTF{suburb}
+
+  Author: Nosurf
+
+# a list of tags for your challenge
+tags:
+  - easy
+
+# list of files to hand out to players
+files:
+  - ./publish/ComeACroppa.png
+
+flags:
+  - DUCTF{maldon}
+  - DUCTF{Maldon}

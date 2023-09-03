@@ -1,0 +1,34 @@
+version: "0.1"
+id: bridgetsback
+name: Bridget's Back!
+category: osint
+description: |
+  Bridget's travelling the globe and found this marvellous bridge, can you uncover where she took the photo from?
+
+  NOTE: Flag is case-insensitive and requires placing inside `DUCTF{}` wrapper!
+  e.g `DUCTF{a_b_c_d_example}`
+
+  Author: Anon
+
+tags:
+  - beginner
+
+files:
+  - ./publish/BridgetsBack.jpg
+
+flags:
+  - {
+        type: "regex",
+        content: "(DUCTF{)?(h(\\.)?(\\s|_)?)?dana(\\s|_)?bower(s)?(\\s|_)?rest(\\s|_)?area((\\s|_)?(and|&)(\\s|_)?vista(\\s|_)?point)?(})?",
+        data: "case_insensitive"
+    }
+  - {
+        type: "regex",
+        content: "(DUCTF{)?(h(\\.)?(\\s|_)?)?dana(\\s|_)?bower(s)?(\\s|_)?memorial(\\s|_)?vista(\\s|_)?point(})?",
+        data: "case_insensitive"
+    }
+  - {
+        type: "regex",
+        content: "(DUCTF{)?(north)?(\\s|_)?vista(\\s|_)?point(\\s|_)?(view)?(})?",
+        data: "case_insensitive"
+    }

@@ -1,0 +1,27 @@
+version: "3.3"
+services:
+  immutable:
+    build: src/
+    container_name: another-please
+    environment:
+      - BLOCKCHAIN_RPC_URL=http://geth:8545
+      - DEPLOYER_PRIVATE_KEY=ed90f5773c3b79490475f08c5934eb2961c088a8c7e1144381ef543641bc6cd6
+      # - CONFIG_FILE_NAME=challenge.yaml
+    ports:
+      - 3000:3000
+    restart: "no"
+  geth:
+    image: ghcr.io/downunderctf/eth-challenge-base/geth:latest
+    container_name: geth
+    environment:
+      - DEPLOYER_PRIVATE_KEY=ed90f5773c3b79490475f08c5934eb2961c088a8c7e1144381ef543641bc6cd6
+      - BLOCK_TIME=0
+      # - CHAIN_ID=31337
+    ports:
+      - 8545:8545
+    restart: "no"
+
+
+
+networks:
+  default:

@@ -1,0 +1,20 @@
+version: "0.1"
+id: advanced_vector_expositions
+name: advanced vector expositions
+category: rev
+description: |
+  Let's read (and write) a book about AVX.
+
+  Author: joseph
+
+hosting:
+  type: file
+
+tags:
+  - hard
+
+files:
+  - ./publish/advanced_vector_expositions
+
+flags:
+  - DUCTF{m4ppy_m4tr1x_avx}

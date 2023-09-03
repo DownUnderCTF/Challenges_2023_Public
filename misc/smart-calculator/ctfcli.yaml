@@ -1,0 +1,23 @@
+version: "0.1"
+id: smart-calculator
+name: Smart Calculator
+category: misc
+description: |
+  Check out this super smart calculator that I've built! Instead of having to calculate the solution for an equation everytime, why don't we just save the answer and never compute that equation again? P.S. This calculator can even parse octal numbers!
+
+  Author: Solopie
+
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml
+
+connection_info: nc ${host} ${port}
+
+tags:
+  - easy
+
+files:
+  - ./publish/app.js
+
+flags:
+  - DUCTF{i_l0v3_eVaL}

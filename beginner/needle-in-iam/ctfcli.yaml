@@ -1,0 +1,19 @@
+version: "0.1"         # ctfcli version (leave as is)
+id: needle-in-iam           # internal chall id (just name this anything sensible)
+name: Needle In IAM         # challenge name to be displayed
+category: beginner
+description: |
+  I've been told the flag I need is in description of this role, but I keep getting an error with the following command. Surely there's another way?
+
+  `gcloud iam roles describe ComputeOperator --project=<PROJECT>`
+
+  Author: BootlegSorcery@
+
+tags:
+  - misc
+
+files:
+  - ./publish/credentials.json
+
+flags:
+  - DUCTF{D3scr1be_L1ST_Wh4ts_th3_d1fference_FDyIMbnDmX}

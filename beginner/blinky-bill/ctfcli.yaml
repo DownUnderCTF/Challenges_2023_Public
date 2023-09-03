@@ -1,0 +1,62 @@
+version: "0.1"
+id: blinky-bill
+name: blinkybill
+category: beginner
+description: |
+  Hey hey it's Blinky Bill!
+
+  NOTE: Flag is case-insensitive and requires placing inside `DUCTF{}` wrapper!
+
+  Author: Anon
+
+hosting:
+  type: file
+
+tags:
+  - misc
+
+files:
+  - ./publish/blinkybill.wav
+
+flags:
+  - {
+      type: "static",
+      content: "DUCTF{BRINGBACKTHETREES}",
+      data: "case_insensitive",
+  }
+  - {
+      type: "static",
+      content: "DUCTF{BRING BACK THE TREES}",
+      data: "case_insensitive",
+  }
+  - {
+      type: "static",
+      content: "BRINGBACKTHETREES",
+      data: "case_insensitive",
+  }
+  - {
+      type: "static",
+      content: "BRING BACK THE TREES",
+      data: "case_insensitive",
+  }
+  - {
+      type: "static",
+      content: "DUCTF{BRING_BACK_THE_TREES}",
+      data: "case_insensitive",
+  }
+  - {
+      type: "static",
+      content: "BRING_BACK_THE_TREES",
+      data: "case_insensitive",
+  }
+
+  - {
+      type: "static",
+      content: "DUCTF{BRING-BACK-THE-TREES}",
+      data: "case_insensitive",
+  }
+  - {
+      type: "static",
+      content: "BRING-BACK-THE-TREES",
+      data: "case_insensitive",
+  }

@@ -1,0 +1,12 @@
+# Config file for blockchain infra
+challenge_name: "EightFiveFourFive"
+challenge_description: "Goal: have the isSolved() function return true"
+setup_contract_name: "SetupEightFiveFourFive"
+flag: "DUCTF{I_can_connect_to_8545_pretty_epic:)}"
+block_time: 0
+
+# Optional flags
+# player_initial_balance: 2
+# enable_faucet: false
+challenge_source_files:
+  - "EightFiveFourFive.sol"

@@ -1,0 +1,23 @@
+version: "0.1"
+id: hhhhh
+name: hhhhh
+category: crypto
+description: |
+  h hhhhh hhhh hhh hh hhhhh hh hh hhh hhhh hhhh hhh-hhhhh hhhhhhhhhh. hhhh hh hhh hhhhh?
+
+  hhhhhh: hashkitten
+
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml
+
+connection_info: nc ${host} ${port}
+
+tags:
+  - medium
+
+files:
+  - ./publish/hhhhh.py
+
+flags:
+  - DUCTF{hhh.hhh_hh_hhhhhh_hhh,hh_hh?h_hh_hhhh_hhh-hh,hhh-hhhhh_hhhhh_hh.}

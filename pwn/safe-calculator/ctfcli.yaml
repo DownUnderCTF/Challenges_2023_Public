@@ -1,0 +1,18 @@
+version: "0.1"
+id: safe-calculator
+name: safe calculator
+category: pwn
+description: |
+  A world's first provably safe calculator!
+
+  Author: grub
+connection_info: nc ${host} ${port}
+tags:
+  - easy
+files:
+  - ./publish/safe-calculator
+flags:
+  - DUCTF{d1d_y0u_p0p_c4lc?}
+hosting:
+  type: kube
+  template: tcp-challenge-privileged.yaml
